@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tag (
+    tag_id INT PRIMARY KEY,
+    tag_name VARCHAR(30)
+)
