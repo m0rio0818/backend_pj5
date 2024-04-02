@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS post(
     updated_at DATETIME,
     user_id INT,
     FOREIGN KEY (user_id) REFERENCES user(id)
-)
+);

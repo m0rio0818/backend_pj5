@@ -6,19 +6,29 @@ $mysqli = new MySQLWrapper();
 
 $directories = __DIR__ . "/Examples/";
 
-$arrays = ["user", "post", "comment", "comment-like", "post-like", "category", "user-setting", "tag", "category", "post-tag",];
+$arrays = ["user", "post", "comment", "alter_user",  "comment-like", "post-like", "category", "user-setting", "tag", "post-tag", "alter_post",];
 
 for ($i = 0; $i < count($arrays); $i++) {
 
     $code = $directories . $arrays[$i] .  ".sql";
 
-    // echo $code . PHP_EOL;
     $sql = file_get_contents($code);
+    // echo $sql . PHP_EOL;
     $result = $mysqli->query($sql);
-    // echo $arrays[$i] . PHP_EOL;
     if ($result === false) throw new Exception('Could not execute query.');
     else print("Successfully run " . $arrays[$i] . " SQL setup queries." . PHP_EOL);
 }
+
+// user.sqlファイルの内容を読み込み、実行する
+// $userSqlFile = $directories . "user.sql";
+// $userSql = file_get_contents($userSqlFile);
+// $userResult = $mysqli->query($userSql);
+// if ($userResult === false) throw new Exception('Could not execute user.sql query.');
+// else print("Successfully run user.sql query." . PHP_EOL);
+
+// $alterResult = $mysqli->query($alterSql);
+// if ($alterResult === false) throw new Exception('Could not execute ALTER TABLE query.');
+// else print("Successfully run ALTER TABLE query." . PHP_EOL);
 
 // user
 // $user = $directories . "user.sql";
