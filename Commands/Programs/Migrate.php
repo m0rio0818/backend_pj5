@@ -25,7 +25,8 @@ class Migrate extends AbstractCommand
             $this->log("Starting migration......");
             $this->migrate();
         } else {
-            // ロールバックは設定されている場合はtrue、またはそれに添付されている値が整数として表されます。
+            // ロールバックは設定されている場合はtrue、
+            // またはそれに添付されている値が整数として表されます。
             $rollback = $rollback === true ? 1 : (int) $rollback;
             $this->log("Running rollback....");
             for ($i = 0; $i < $rollback; $i++) {
