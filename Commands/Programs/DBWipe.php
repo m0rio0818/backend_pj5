@@ -24,8 +24,6 @@ class DBWipe extends AbstractCommand
     public function execute(): int
     {
         $mysqli = new MySQLWrapper();
-        echo  "DB <" . $mysqli->getDatabaseName() .  " : " . $mysqli->getUserName() . ">  will be clear" . PHP_EOL;
-
         $dump = $this->getArgumentValue("dump");
         $restore = $this->getArgumentValue("restore");
         if ($dump) {
@@ -39,15 +37,16 @@ class DBWipe extends AbstractCommand
 
     private function drop() : void {
         $mysqli = new MySQLWrapper();
-        $query = sprintf("DROP DATABASE IF EXISTS %s;", $mysqli->getDatabaseName());
-        echo $mysqli->getDatabaseName() . PHP_EOL;
+        $dbname = $mysqli->getDatabaseName();
+        echo $dbname . PHP_EOL;
+        $query = sprintf("DROP DATABASE IF EXISTS %s;", $dbname);
         $mysqli->query($query);
-        $info =sprintf("DB <%s> を削除しました", $mysqli->getDatabaseName());
         
-        $query2 = sprintf("CREATE DATABASE IF NOT EXISTS %s;", $mysqli->getDatabaseName());
-        $mysqli->query($query2);
-        echo $mysqli->getDatabaseName() . PHP_EOL;
-        $info =sprintf("DB <%s> を何もない状態で作成しました", $mysqli->getDatabaseName());
+        $query = sprintf("CREATE DATABASE %s;", $dbname);
+        $mysqli->query($query);
+
+                
+        $info =sprintf("DB <%s> が一度削除され、何もない状態で作成しました", $dbname);
         $this->log($info);
     }
 
