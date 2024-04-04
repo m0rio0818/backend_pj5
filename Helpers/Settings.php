@@ -12,35 +12,6 @@ use ReadAndParseEnvException;
 */
 
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-
-
-$mysqli = new mysqli(
-    "localhost",
-    Settings::env("DATABASE_USER"),
-    Settings::env("DATABASE_USER_PASSWORD"),
-    Settings::env("DATABASE_NAME")
-);
-
-$charset = $mysqli->get_charset();
-
-
-if ($charset === null) throw new Exception("Charset could be read");
-
-
-printf("%s7s charset : %s.%s", Settings::env("DATABASE_NAME"), $charset->charset, PHP_EOL);
-
-
-printf(
-    "collation: %s.%s",
-    $charset->collation,
-    PHP_EOL
-);
-
-// 接続を閉じるには、closeメソッドを使用します。
-$mysqli->close();
-
-
 class Settings
 {
     private const ENV_PATH = ".env";
