@@ -23,7 +23,6 @@ class DBWipe extends AbstractCommand
 
     public function execute(): int
     {
-        $mysqli = new MySQLWrapper();
         $dump = $this->getArgumentValue("dump");
         $restore = $this->getArgumentValue("restore");
         if ($dump) {
