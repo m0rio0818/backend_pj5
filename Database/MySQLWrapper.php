@@ -2,6 +2,7 @@
 
 namespace Database;
 
+use Exception;
 use mysqli;
 use Helpers\Settings;
 
@@ -33,6 +34,20 @@ class MySQLWrapper extends mysqli
 
     public function getDatabaseName(): string
     {
-        return $this->query("SELECT database() AS the_db")->fetch_row()[0];
+        if ($this->connect_error) {
+            throw new \Exception("MySQL connection error: ", $this->connect_error);
+        }
+        
+        $result = $this->query("SELECT database() AS the_db");;
+        if (!$result){
+            throw new \Exception("Failed to retrieve database name: ", $this->error);
+        }
+
+        $row = $result->fetch_row();
+        if (!$row){
+            throw new \Exception("NO database name found");
+        }
+        return $row[0];
+        // return $this->query("SELECT database() AS the_db")->fetch_row()[0];
     }
 }
