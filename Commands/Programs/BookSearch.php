@@ -16,8 +16,8 @@ class BookSearch extends AbstractCommand
     public static function getArguments(): array
     {
         return [
-            (new Argument('title'))->description("Open Libraryをtitleで検索します。")->required(false)->allowAsShort(true),
-            (new Argument('isbn'))->description("Open Libraryをisbnで検索します。")->required(false)->allowAsShort(true)
+            (new Argument('title'))->description("Open Libraryをtitleで検索します.")->required(false)->allowAsShort(true),
+            (new Argument('isbn'))->description("Open Libraryをisbnで検索します.")->required(false)->allowAsShort(true)
         ];
     }
 
@@ -108,17 +108,24 @@ class BookSearch extends AbstractCommand
         foreach ($booksInfo as $book) {
             // まずisbnを取得
             if (isset($book["isbn"])) {
-                $isbn = $book["isbn"][0];
-                $key = "book-search-isbn-" . $isbn;
-
-                $findsql = "SELECT * FROM books WHERE id='$key'";
-                $result = $mysqli->query($findsql);
-
-
-
-                echo $book["isbn"][0] . PHP_EOL;
-            } else echo "ISBNは存在しません" . PHP_EOL;
-
+                $isbns = $book["isbn"];
+                $flag = true;
+                foreach ($isbns as $isbn) {
+                    $key = "book-search-isbn-" . $isbn;
+                    $findsql = "SELECT * FROM books WHERE id='$key'";
+                    $result = $mysqli->query($findsql);
+                    if ($result->num_rows > 0) {
+                        echo "書籍がDB上に見つかりました. DBのデータが30日以内チェック";
+                        $flag = false;
+                        break;
+                    }
+                }
+                if ($flag) {
+                    echo "DBにデータがなかったので、挿入します" . PHP_EOL;
+                }
+            } else {
+                echo "ISBNは存在しません" . PHP_EOL;
+            }
             // $key = "book-search-isbn-" . ;
             // $title = $mysqli->real_escape_string(json_encode($book["title"][0]));
             // $authors = $mysqli->real_escape_string(json_encode($book["author_name"]));
