@@ -4,7 +4,7 @@ namespace Database\Migrations;
 
 use Database\SchemaMigration;
 
-class CreateUserTable1 implements SchemaMigratoin
+class CreateUserTable1 implements SchemaMigration
 {
     public function up(): array
     {

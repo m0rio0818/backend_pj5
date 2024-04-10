@@ -2,7 +2,7 @@
 
 namespace Database;
 
-interface SchemaMigratoin
+interface SchemaMigration
 {
     public function up(): array;
     public function down(): array;
