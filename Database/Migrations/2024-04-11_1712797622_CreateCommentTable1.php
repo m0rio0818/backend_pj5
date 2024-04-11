@@ -4,20 +4,21 @@ namespace Database\Migrations;
 
 use Database\SchemaMigration;
 
-class CreatePostTable1 implements SchemaMigration
+class CreateCommentTable1 implements SchemaMigration
 {
     public function up(): array
     {
         // マイグレーションロジックをここに追加してください
         return [
-            "CREATE TABLE post(
-                postID INT PRIMARY KEY AUTO_INCREMENT,
-                title VARCHAR(255) NOT NULL,
-                content TEXT NOT NULL,
+            "CREATE TABLE comment(
+                commentID INT PRIMARY KEY,
+                commentText VARCHAR(255),
                 created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
                 updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
                 userID INT,
-                FOREIGN KEY (userID) REFERENCES user(userID) ON DELETE CASCADE
+                FOREIGN KEY (userID) REFERENCES user(userID),
+                postID INT,
+                FOREIGN KEY (postID) REFERENCES post(postID)
             )"
         ];
     }
@@ -26,7 +27,7 @@ class CreatePostTable1 implements SchemaMigration
     {
         // ロールバックロジックを追加してください
         return [
-            "DROP TABLE posts"
+            "DROP TABLE comment"
         ];
     }
 }

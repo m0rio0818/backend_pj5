@@ -64,15 +64,18 @@ class Migrate extends AbstractCommand
         $lastMigration = $this->getLastMigration();
         // ファイル名を日付順（ASC）に並べた配列を返します
         $allMigrations = $this->getAllMigrationFiles();
+        var_dump($allMigrations);
+        echo $lastMigration . PHP_EOL;
         $startIndex = ($lastMigration) ? array_search($lastMigration, $allMigrations) + 1 : 0;
 
+        // echo $startIndex . PHP_EOL;
         for ($i = $startIndex; $i < count($allMigrations); $i++) {
             $filename = $allMigrations[$i];
 
             // まだインクルードされていない場合、ファイルをインクルードします
             include_once($filename);
             $migrationClass = $this->getClassnameFromMigrationFilename($filename);
-            echo "migration CLASS => " . $migrationClass . PHP_EOL;
+            // echo "migration CLASS => " . $migrationClass . PHP_EOL;
             $migration = new $migrationClass();
             $this->log(sprintf("Processing up migration for %s", $migrationClass));
             $queries = $migration->up();
@@ -133,6 +136,7 @@ class Migrate extends AbstractCommand
     {
         $mysqli = new MySQLWrapper();
         foreach ($queries as $query) {
+            echo "QUERY => " . $query . PHP_EOL;
             $result = $mysqli->query($query);
             if ($result === false) throw new \Exception(sprintf("Query {%s} failed.", $query));
             else $this->log('Ran query: ' . $query);
