@@ -65,12 +65,13 @@ class Migrate extends AbstractCommand
         // ファイル名を日付順（ASC）に並べた配列を返します
         $allMigrations = $this->getAllMigrationFiles();
         var_dump($allMigrations);
-        echo $lastMigration . PHP_EOL;
+        // echo $lastMigration . PHP_EOL;
         $startIndex = ($lastMigration) ? array_search($lastMigration, $allMigrations) + 1 : 0;
 
         // echo $startIndex . PHP_EOL;
         for ($i = $startIndex; $i < count($allMigrations); $i++) {
             $filename = $allMigrations[$i];
+            echo $filename . PHP_EOL;
 
             // まだインクルードされていない場合、ファイルをインクルードします
             include_once($filename);
