@@ -44,13 +44,12 @@ class GenerateCommands extends AbstractCommand
         echo $currentFile . PHP_EOL;
 
         echo strpos($currentFile, $className) ? " TRUE " . PHP_EOL : "FALSE" . PHP_EOL;
-        if (!strpos($currentFile, $className)){
+        if (!strpos($currentFile, $className)) {
             $insertPosition = strpos($currentFile, "];");
             $insertText = "    Commands\Programs\\" . $className . "::class, \n";
             $newContent = substr_replace($currentFile, $insertText, $insertPosition, 0);
-    
-            file_put_contents($filePath,$newContent);
-        } echo "すでに登録されているので、何もしません" . PHP_EOL; 
+
+            file_put_contents($filePath, $newContent);
         }
     }
 
