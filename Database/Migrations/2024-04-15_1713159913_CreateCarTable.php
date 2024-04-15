@@ -20,7 +20,9 @@ class CreateCarTable implements SchemaMigration
                 mileage FLOAT,
                 transmission VARCHAR(255),
                 engine VARCHAR(100),
-                status VARCHAR(255)
+                status VARCHAR(255),
+                created_at TIMESTAMP,
+                updated_at TIMESTAMP
             )"
         ];
     }

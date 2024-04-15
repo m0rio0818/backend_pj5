@@ -6,16 +6,13 @@ require_once 'vendor/autoload.php';
 
 use Database\AbstractSeeder;
 use Faker\Factory;
+use Carbon\Carbon;
 
 
 class CarPartSeeder extends AbstractSeeder
 {
     protected ?string $tableName = "car_part";
     protected array $tableColumns = [
-        // [
-        //     'data_type' => 'string',
-        //     'column_name' => 'id'
-        // ],
         [
             'data_type' => 'int',
             'column_name' => 'carID'
@@ -53,13 +50,15 @@ class CarPartSeeder extends AbstractSeeder
         $startDate = '-10 years'; // 10年前
         $endDate = 'now'; // 現在
 
-        for ($i = 0; $i < 100000; $i++) {
+        for ($i = 0; $i < 10000; $i++) {
             $data = [
                 $faker->numberBetween(1, 10000),
                 $faker->text(30),
                 $faker->text(50),
                 $faker->randomFloat(2, 0, 1000),
-                $faker->randomNumber(1, true)
+                $faker->randomNumber(1, true),
+                Carbon::instance($faker->dateTimeBetween($startDate, $endDate))->toDateTime(),
+                Carbon::instance($faker->dateTimeBetween($startDate, $endDate))->toDateTime()
             ];
             $rowData[] = $data;
         }

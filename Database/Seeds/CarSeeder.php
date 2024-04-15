@@ -6,16 +6,13 @@ require_once 'vendor/autoload.php';
 
 use Database\AbstractSeeder;
 use Faker\Factory;
+use Carbon\Carbon;
 
 
 class CarSeeder extends AbstractSeeder
 {
     protected ?string $tableName = "car";
     protected array $tableColumns = [
-        // [
-        //     'data_type' => 'string',
-        //     'column_name' => 'id'
-        // ],
         [
             'data_type' => 'string',
             'column_name' => 'make'
@@ -45,6 +42,14 @@ class CarSeeder extends AbstractSeeder
             'column_name' => 'transmission'
         ],
         [
+            'data_type' => 'string',
+            'column_name' => 'engine'
+        ],
+        [
+            'data_type' => 'string',
+            'column_name' => 'status'
+        ],
+        [
             'data_type' => 'DateTime',
             'column_name' => 'created_at'
         ],
@@ -72,7 +77,10 @@ class CarSeeder extends AbstractSeeder
                 $faker->word(),
                 $faker->word(),
                 $faker->word(),
+                Carbon::instance($faker->dateTimeBetween($startDate, $endDate))->toDateTime(),
+                Carbon::instance($faker->dateTimeBetween($startDate, $endDate))->toDateTime()
             ];
+
             $rowData[] = $data;
         }
         return $rowData;

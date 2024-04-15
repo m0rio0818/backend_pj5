@@ -17,7 +17,9 @@ class CreateCarPartTable implements SchemaMigration
                 name VARCHAR(50),
                 description VARCHAR(100),
                 price FLOAT,
-                quantityInStock INT
+                quantityInStock INT,
+                created_at TIMESTAMP,
+                updated_at TIMESTAMP
             )"
         ];
     }
