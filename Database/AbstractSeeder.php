@@ -17,6 +17,7 @@ abstract class AbstractSeeder implements Seeder {
         // PHPのfloatは実際にはdouble型の精度です。
         'float' => 'd',
         'string' => 's',
+        "DateTime" => "dt"
     ];
 
     public function __construct(MySQLWrapper $conn) {
@@ -72,6 +73,7 @@ abstract class AbstractSeeder implements Seeder {
         // implodeは配列を一つの文字列に結合し、その文字列を返します。
         $dataTypes = implode(array_map(function($columnInfo){ return static::AVAILABLE_TYPES[$columnInfo['data_type']];}, $this->tableColumns));
 
+        echo $dataTypes . PHP_EOL;
         // bind paramsは文字の配列（文字列）を取り、それぞれに値を挿入します。
         // 例：$stmt->bind_param('iss', ...array_values([1, 'John', 'john@example.com'])) は、ステートメントに整数、文字列、文字列を挿入します。
         $stmt->bind_param($dataTypes, ...array_values($row));
