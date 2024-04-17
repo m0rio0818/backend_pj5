@@ -90,4 +90,20 @@ class DatabaseHelper
         }
         return $ans;
     }
+
+    public static function getPartByPerformance(string $type, string $order): array
+    {
+        $db = new MySQLWrapper();
+        $order_type = $order == "desc" ? "DESC" : "ASC";
+        $sql = "SELECT * FROM computer_parts WHERE type = ? ORDER BY performance_score $order_type LIMIT 50";
+        $stmt = $db->prepare($sql);
+        $stmt->bind_param("s", $type);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $ans = [];
+        while ($row = $result->fetch_assoc()) {
+            $ans[] = $row;
+        }
+        return $ans;
+    }
 }

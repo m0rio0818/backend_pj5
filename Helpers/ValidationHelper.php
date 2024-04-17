@@ -22,4 +22,12 @@ class ValidationHelper
         if (!in_array($value, $typesArray)) throw new \InvalidArgumentException("The provided type is not valid Types. Types sholud be  [CPU, SSD, RAM, GPU, Power, MotherBoard, Case]");
         else return $value;
     }
+
+
+    public static function checkOrderType($type): string
+    {
+        $typeArr = ["desc", "asc"];
+        if (!in_array($type, $typeArr)) throw new \InvalidArgumentException("The provided type is not valid Types. Types sholud be [desc, asc]");
+        else return $type;
+    }
 }

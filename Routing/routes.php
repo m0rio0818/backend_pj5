@@ -48,5 +48,11 @@ return [
         return new HTMLRenderer('component/parts_list', ['parts' => $parts]);
     },
     'parts/performance' => function () {
+        $order = ValidationHelper::checkOrderType($_GET["order"] ?? "desc");
+        $type =  ValidationHelper::checkType($_GET["type"]  ?? null);
+    
+
+        $parts =  DatabaseHelper::getPartByPerformance($type, $order);
+        return new HTMLRenderer('component/parts_list', ['parts' => $parts]);
     }
 ];
