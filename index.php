@@ -22,8 +22,6 @@ if (isset($routes[$path])) {
         foreach ($renderer->getFields() as $name => $value) {
             // ヘッダーに対する単純な検証を実行します。
             $sanitized_value = filter_var($value, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-            // $sanitized_value = filter_var($value, FILTER_SANITIZE_STRING);
-            echo "saniterized_value". $sanitized_value . PHP_EOL;
             if ($sanitized_value && $sanitized_value === $value) {
                 header("{$name}: {$sanitized_value}");
             } else {

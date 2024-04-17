@@ -15,4 +15,11 @@ class ValidationHelper
         // 値がすべてのチェックをパスしたら、そのまま返します。
         return $value;
     }
+
+    public static function checkType($value): string
+    {
+        $typesArray = ["CPU", "SSD", "RAM", "GPU", "Power", "MotherBoard", "Case"];
+        if (!in_array($value, $typesArray)) throw new \InvalidArgumentException("The provided type is not valid Types. Types sholud be  [CPU, SSD, RAM, GPU, Power, MotherBoard, Case]");
+        else return $value;
+    }
 }

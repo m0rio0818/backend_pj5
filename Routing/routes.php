@@ -29,4 +29,18 @@ return [
         $part = DatabaseHelper::getComputerPartById($id);
         return new JSONRenderer(['part' => $part]);
     },
+    'types' => function () {
+        $type =  ValidationHelper::checkType($_GET["type" ?? null]);
+        $page = ValidationHelper::integer($_GET['page'] ?? 1);
+        $perpage = ValidationHelper::integer($_GET['perpage'] ?? 5);
+
+        $parts = DatabaseHelper::getComputerPartByTypes($type, $page, $perpage);
+        return new HTMLRenderer('component/parts_list', ['parts' => $parts]);
+    },
+    'random/computer' => function () {
+    },
+    'parts/newest' => function () {
+    },
+    'parts/performance' => function () {
+    }
 ];

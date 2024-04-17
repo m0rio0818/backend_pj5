@@ -7,7 +7,8 @@ use Exception;
 
 class DatabaseHelper
 {
-    public static function getRandomComputerPart(): array{
+    public static function getRandomComputerPart(): array
+    {
         $db = new MySQLWrapper();
 
         $stmt = $db->prepare("SELECT * FROM computer_parts ORDER BY RAND() LIMIT 1");
@@ -20,7 +21,8 @@ class DatabaseHelper
         return $part;
     }
 
-    public static function getComputerPartById(int $id): array{
+    public static function getComputerPartById(int $id): array
+    {
         $db = new MySQLWrapper();
 
         $stmt = $db->prepare("SELECT * FROM computer_parts WHERE id = ?");
@@ -33,5 +35,28 @@ class DatabaseHelper
         if (!$part) throw new Exception('Could not find a single part in database');
 
         return $part;
+    }
+
+
+    public static function getComputerPartByTypes(string $types, int $page, int $perpage): array
+    {
+        $db = new MySQLWrapper();
+
+        $start = ($page - 1) * $perpage;
+
+        $stmt = $db->prepare("SELECT * FROM computer_parts WHERE type =  ? LIMIT ?, ?");
+        $stmt->bind_param("sii", $types, $start, $perpage);
+        $stmt->execute();
+
+        $ans = [];
+        $result = $stmt->get_result();
+        while ($row = $result->fetch_assoc()) {
+            // echo "Hello world   ";
+            // var_dump($row);
+            // echo "End world   ";
+            $ans[] = $row;
+        }
+        if (!$ans) throw new Exception('Could not find a single part in database');
+        return $ans;
     }
 }

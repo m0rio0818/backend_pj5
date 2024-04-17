@@ -25,7 +25,6 @@ class HTMLRenderer implements HTTPRenderer
     public function getContent(): string
     {
         $viewPath = $this->getViewPath($this->viewFile);
-
         if (!file_exists($viewPath)) {
             throw new \Exception("View file {$viewPath} does not exist.");
         }
