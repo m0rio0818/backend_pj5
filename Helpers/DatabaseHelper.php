@@ -51,9 +51,6 @@ class DatabaseHelper
         $ans = [];
         $result = $stmt->get_result();
         while ($row = $result->fetch_assoc()) {
-            // echo "Hello world   ";
-            // var_dump($row);
-            // echo "End world   ";
             $ans[] = $row;
         }
         if (!$ans) throw new Exception('Could not find a single part in database');
@@ -75,6 +72,22 @@ class DatabaseHelper
             $ans[] = $part;
         }
         if (!$ans) throw new Exception('Could not find a single part in database');
+        return $ans;
+    }
+
+    public static function getNewestParts(int $page, int $perpage)
+    {
+        $db = new MySQLWrapper();
+        $start = ($page - 1) * $perpage;
+
+        $stmt = $db->prepare("SELECT * FROM computer_parts ORDER BY release_date DESC LIMIT ?, ?");
+        $stmt->bind_param("ii", $start, $perpage);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $ans = [];
+        while ($row = $result->fetch_assoc()) {
+            $ans[] = $row;
+        }
         return $ans;
     }
 }

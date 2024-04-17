@@ -42,7 +42,10 @@ return [
         return new HTMLRenderer('component/build_computer', ['parts' => $parts]);
     },
     'parts/newest' => function () {
-
+        $page = ValidationHelper::integer($_GET['page'] ?? 1);
+        $perpage = ValidationHelper::integer($_GET['perpage'] ?? 5);
+        $parts =  DatabaseHelper::getNewestParts($page, $perpage);
+        return new HTMLRenderer('component/parts_list', ['parts' => $parts]);
     },
     'parts/performance' => function () {
     }
