@@ -59,4 +59,22 @@ class DatabaseHelper
         if (!$ans) throw new Exception('Could not find a single part in database');
         return $ans;
     }
+
+    public static function getBuildRandomComputer()
+    {
+        $db = new MySQLWrapper();
+        $partsList = ["CPU", "SSD", "RAM", "GPU", "Power", "MotherBoard", "Case"];
+
+        $ans = [];
+        foreach ($partsList as $part) {
+            $stmt = $db->prepare("SELECT * FROM computer_parts WHERE type = ?  ORDER BY RAND() LIMIT 1");
+            $stmt->bind_param("s", $part);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            $part = $result->fetch_assoc();
+            $ans[] = $part;
+        }
+        if (!$ans) throw new Exception('Could not find a single part in database');
+        return $ans;
+    }
 }

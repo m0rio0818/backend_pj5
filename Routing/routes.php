@@ -38,8 +38,11 @@ return [
         return new HTMLRenderer('component/parts_list', ['parts' => $parts]);
     },
     'random/computer' => function () {
+        $parts = DatabaseHelper::getBuildRandomComputer();
+        return new HTMLRenderer('component/build_computer', ['parts' => $parts]);
     },
     'parts/newest' => function () {
+
     },
     'parts/performance' => function () {
     }
