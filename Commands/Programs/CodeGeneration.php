@@ -45,7 +45,7 @@ class CodeGeneration extends AbstractCommand
         $migrationContent = $this->getMigrationContent($migrationName);
 
         // 移行ファイルを保存するパスを指定します
-        $path = sprintf("%s/../../Database/migrations/%s", __DIR__, $filename);
+        $path = sprintf("%s/../../Database/Migrations/%s", __DIR__,$filename);
 
         file_put_contents($path, $migrationContent);
         $this->log("Migration file {$filename} has been generated!");
