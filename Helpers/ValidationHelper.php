@@ -2,6 +2,8 @@
 
 namespace Helpers;
 
+use Types\ValueType;
+
 class ValidationHelper
 {
     public static function integer($value, float $min = -INF, float $max = INF): int
@@ -16,18 +18,42 @@ class ValidationHelper
         return $value;
     }
 
-    public static function checkType($value): string
+    public static function validateDate(string $date, string $format = 'Y-m-d'): string
     {
-        $typesArray = ["CPU", "SSD", "RAM", "GPU", "Power", "MotherBoard", "Case"];
-        if (!in_array($value, $typesArray)) throw new \InvalidArgumentException("The provided type is not valid Types. Types sholud be  [CPU, SSD, RAM, GPU, Power, MotherBoard, Case]");
-        else return $value;
+        $d = \DateTime::createFromFormat($format, $date);
+        if ($d && $d->format($format) === $date) {
+            return $date;
+        }
+
+        throw new \InvalidArgumentException(sprintf("Invalid date format for %s. Required format: %s", $date, $format));
     }
 
-
-    public static function checkOrderType($type): string
+    public static function validateFields(array $fields, array $data): array
     {
-        $typeArr = ["desc", "asc"];
-        if (!in_array($type, $typeArr)) throw new \InvalidArgumentException("The provided type is not valid Types. Types sholud be [desc, asc]");
-        else return $type;
+        $validatedData = [];
+
+        foreach ($fields as $field => $type) {
+            if (!isset($data[$field]) || ($data)[$field] === '') {
+                throw new \InvalidArgumentException("Missing field: $field");
+            }
+
+            $value = $data[$field];
+
+            $validatedValue = match ($type) {
+                ValueType::STRING => is_string($value) ? $value : throw new \InvalidArgumentException("The provided value is not a valid string."),
+                ValueType::INT => self::integer($value), // You can further customize this method if needed
+                ValueType::FLOAT => filter_var($value, FILTER_VALIDATE_FLOAT),
+                ValueType::DATE => self::validateDate($value),
+                default => throw new \InvalidArgumentException(sprintf("Invalid type for field: %s, with type %s", $field, $type)),
+            };
+
+            if ($validatedValue === false) {
+                throw new \InvalidArgumentException(sprintf("Invalid value for field: %s", $field));
+            }
+
+            $validatedData[$field] = $validatedValue;
+        }
+
+        return $validatedData;
     }
 }

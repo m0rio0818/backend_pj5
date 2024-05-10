@@ -1,18 +1,23 @@
 <?php
+set_include_path(get_include_path() . PATH_SEPARATOR . realpath(__DIR__ . '/..'));
 spl_autoload_extensions(".php");
 spl_autoload_register();
 
 $DEBUG = true;
 
-// ルートを読み込みます。
+if (preg_match('/\.(?:png|jpg|jpeg|gif|js|css|html)$/', $_SERVER["REQUEST_URI"])) {
+    return false;
+}
+
+
+// ルーティングを読み込みます。
 $routes = include('Routing/routes.php');
 
 // リクエストURIを解析してパスだけを取得します。
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $path = ltrim($path, '/');
 
-
-// ルートにパスが存在するかチェックする
+// ルーティングにパスが存在するかチェックする
 if (isset($routes[$path])) {
     // コールバックを呼び出してrendererを作成します。
     $renderer = $routes[$path]();
@@ -21,7 +26,8 @@ if (isset($routes[$path])) {
         // ヘッダーを設定します。
         foreach ($renderer->getFields() as $name => $value) {
             // ヘッダーに対する単純な検証を実行します。
-            $sanitized_value = filter_var($value, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+            $sanitized_value = filter_var($value, FILTER_SANITIZE_FULL_SPECIAL_CHARS, FILTER_FLAG_NO_ENCODE_QUOTES);
+
             if ($sanitized_value && $sanitized_value === $value) {
                 header("{$name}: {$sanitized_value}");
             } else {
