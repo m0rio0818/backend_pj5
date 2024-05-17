@@ -1,3 +1,4 @@
+<?php var_dump($parts) ?>
 <div class="d-flex justify-content-center flex-wrap p-3">
     <?php
     foreach ($parts as $part) {
@@ -23,4 +24,4 @@
     <?php
     } ?>
 </div>
-<script src="/public/js/main.js"></script>
+<script src="/js/main.js"></script>
