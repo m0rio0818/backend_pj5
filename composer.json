@@ -1,6 +1,7 @@
 {
     "require": {
         "fakerphp/faker": "^1.23",
-        "nesbot/carbon": "^3.2"
+        "nesbot/carbon": "^3.2",
+        "ext-memcached": "*"
     }
 }
