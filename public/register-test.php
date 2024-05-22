@@ -1,4 +1,9 @@
 <?php
+// スクリプトの最初にセッションを開始します。
+// クッキーからsession_idを取得し、データを取得します。
+// HTTPリクエスト内にsession_idクッキーが存在しない場合、set_cookieを実行し、使用するsession_idを生成します。
+session_start();
+
 // エラーメッセージを格納する配列を初期化します
 $errors = [];
 $success = false;
@@ -24,8 +29,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (!$agreement) $errors[] = 'You must agree to the terms and conditions.';
 
+    // セッションにキーと値のペアを追加するには、通常の連想配列と同じように $_SESSIONグローバルから挿入/更新します。
+    // PHPにはセッション管理システムが組み込まれており、 セッションデータをファイルに保存したり、シリアライズ/デシリアライズしたりすることができます。
+    if (!empty($errors)) {
+        $_SESSION['old']['username'] = $_POST['email'];
+        $_SESSION['old']['email'] = $_POST['username'];
+    }
+
     // エラーがなければ、成功フラグをtrueに設定します
     $success = count($errors) === 0;
+
+    // セッションからキーと値のペアを解除します。
+    if ($success && isset($_SESSION['old'])) unset($_SESSION['old']);
 }
 ?>
 

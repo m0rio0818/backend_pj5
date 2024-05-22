@@ -12,9 +12,9 @@ class CreatePostLikeTabel1 implements SchemaMigration
         return [
             "CREATE TABLE post_like(
                 userID INT,
-                FOREIGN KEY (userID) REFERENCES user(userID)  ON DELETE CASCADE,
+                FOREIGN KEY (userID) REFERENCES users(id)  ON DELETE CASCADE,
                 postID INT,
-                FOREIGN KEY (postID) REFERENCES post(postID)  ON DELETE CASCADE
+                FOREIGN KEY (postID) REFERENCES posts(id)  ON DELETE CASCADE
             )"
         ];
     }
