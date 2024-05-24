@@ -8,4 +8,8 @@ return [
         \Middleware\MiddlewareB::class,
         \Middleware\MiddlewareC::class,
     ],
+    'aliases' => [
+        'auth' => \Middleware\AuthenticatedMiddleware::class,
+        'guest' => \Middleware\GuestMiddleware::class,
+    ]
 ];

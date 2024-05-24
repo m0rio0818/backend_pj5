@@ -20,6 +20,7 @@ class ComputerPart implements Model
         private ?string $description = null,
         private ?int $performanceScore = null,
         private ?float $marketPrice = null,
+        private ?int $submitted_by_id = null,
         private ?float $rsm = null,
         private ?float $powerConsumptionW = null,
         private ?float $lengthM = null,
@@ -126,6 +127,16 @@ class ComputerPart implements Model
     public function setRsm(float $rsm): void
     {
         $this->rsm = $rsm;
+    }
+
+    public function getSubmittedById(): ?int
+    {
+        return $this->submitted_by_id;
+    }
+
+    public function setSubmittedById(int $submitted_by_id): void
+    {
+        $this->submitted_by_id = $submitted_by_id;
     }
 
     public function getPowerConsumptionW(): ?float

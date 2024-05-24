@@ -60,3 +60,908 @@ Header:Array
     [2] => Cache-Control: no-store, no-cache, must-revalidate
     [3] => Pragma: no-cache
 )
+2024-05-24 05:47:31 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00067305564880371
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 05:47:52 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00043010711669922
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 05:47:57 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0010991096496582
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 05:48:14 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.001492977142334
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 05:48:14 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00090217590332031
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 05:49:09 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00048398971557617
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:21:08 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0016288757324219
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:21:09 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00037789344787598
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:21:15 http://localhost:8000/form/login Method:POST
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Content-Length] => 53
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [Origin] => http://localhost:8000
+    [Content-Type] => application/x-www-form-urlencoded
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.18278193473816
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:21:16 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.003162145614624
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:22:07 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0036568641662598
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:22:16 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0022211074829102
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:22:22 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0033261775970459
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:22:22 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.052711963653564
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:22:24 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.04228401184082
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:32:56 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.040742874145508
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:10 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0055630207061768
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:10 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.034830093383789
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:13 http://localhost:8000/logout Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/random/part
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0039901733398438
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:13 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Referer] => http://localhost:8000/random/part
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0401930809021
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:19 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/random/part
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0011081695556641
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:26 http://localhost:8000/form/login Method:POST
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Content-Length] => 53
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [Origin] => http://localhost:8000
+    [Content-Type] => application/x-www-form-urlencoded
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.11323285102844
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:33:27 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.001945972442627
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:35:26 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0039019584655762
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:35:28 http://localhost:8000/logout Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/update/part
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0023319721221924
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:35:28 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Referer] => http://localhost:8000/update/part
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.035656929016113
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:35:30 http://localhost:8000/random/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost:8000/update/part
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.040549993515015
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:35:37 http://localhost:8000/update/part Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00099301338195801
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 06:35:37 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.00056910514831543
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
