@@ -158,14 +158,19 @@ return [
 
         return new HTMLRenderer('component/computer-part-card/computer-part-card', ['part' => $part]);
     },
-    'update/part' => function (): HTMLRenderer {
+    'update/part' => function(): HTTPRenderer {
+        if(!Authenticate::isLoggedIn()){
+            FlashData::setFlashData('error', 'Permission Denied.');
+            return new RedirectRenderer('random/part');
+        }
+    
         $part = null;
         $partDao = DAOFactory::getComputerPartDAO();
-        if (isset($_GET['id'])) {
+        if(isset($_GET['id'])){
             $id = ValidationHelper::integer($_GET['id']);
             $part = $partDao->getById($id);
         }
-        return new HTMLRenderer('component/computer-part-card/update-computer-part', ['part' => $part]);
+        return new HTMLRenderer('component/update-computer-part',['part'=>$part]);
     },
     'form/update/part' => function (): HTTPRenderer {
         try {

@@ -3,9 +3,8 @@
 
 namespace Helpers;
 
-use Exception;
-use mysqli;
-use ReadAndParseEnvException;
+
+use Exceptions\ReadAndParseEnvException;
 /*
     接続の失敗時にエラーを報告し、例外をスローします。データベース接続を初期化する前にこの設定を行ってください。
     テストするには、.env設定で誤った情報を入力します。

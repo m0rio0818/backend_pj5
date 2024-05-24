@@ -1,0 +1,62 @@
+2024-05-24 05:38:16 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0011129379272461
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
+2024-05-24 05:38:19 http://localhost:8000/login Method:GET
+Param:Array
+(
+)
+Header:Array
+(
+    [Host] => localhost:8000
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "macOS"
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => none
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => ja,en-US;q=0.9,en;q=0.8
+    [Cookie] => theme=dark; PHPSESSID=1cqvj0laq60uv4a7polqlvmnia; _toy_app_session=YGMyC03uHfJCQysHAQGWXAlxWOr9B%2B5HBAryaRqCel4bCSdrFSoNu4GXAQEyUATddJHJWGMr%2BJi%2BTEYh0PiWTJVwte%2BKrEV1rACjrxLVXUxaepmgos797qKodG2uyUB%2Fzr%2Fubu13UUV3mV3SrpPN1o9LmTN9YNu2szLS%2F9P%2BgcZ3mBZ%2BLLx2zYFwHbsQ7yHzZMdfnTlIcSlSzOvQ9EmrEgabAMsHRynehuBlqWfY%2BkAtXwBcXs%2B9jPUwev1iayrO1PtdsIFS5M3hmIPIMCOairw%2B2vyZBIB3--gTupeqyCevDgD64G--q1lba82ouhuyLeORq%2BK6tw%3D%3D
+)
+Status:200 Response Time:0.0012161731719971
+Header:Array
+(
+    [0] => X-Powered-By: PHP/8.3.7
+    [1] => Expires: Thu, 19 Nov 1981 08:52:00 GMT
+    [2] => Cache-Control: no-store, no-cache, must-revalidate
+    [3] => Pragma: no-cache
+)
